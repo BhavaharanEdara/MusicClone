@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Mynerve', cursive;
+    background-color: aquamarine;
+}
+
+.top{
+    display: flex;
+    top: 0;
+    position: sticky;
+    flex-direction: row;
+    align-items: center;
+    height : 15%;
+    background-color: black;
+    color: white;
+
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.ele{
+    margin-left: 2.5%;
+}
+
+.material-icons.md-18{
+    font-size: 18px;
+}
+
+.container{
+
+    margin:5% 15%;
+    border-radius: 10px;
+    background-color:black;
+    color: rgb(64, 206, 83);
+    min-height : 95vh;
+    background-image: url("https://img.freepik.com/free-vector/musical-pentagram-sound-waves-notes-background_1017-33911.jpg?w=2000");
+    background-size: 80vw 90vh;
+
+}
+.song{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px 10%;
+    height : 50px;
+    width: 60%;
+    
+    border-radius: 30px;
+    background-color: rgb(49, 49, 41);
+}
+
+.song_img{
+    margin-left: 15px;
+    border-radius: 40px;
+}
+
+.time-play{
+    display: flex;
+    flex-direction: row;
+    font-size: 75%;
+    padding-right: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+
+}
+.bottom{
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width :100%;
+    color: white;
+    height:130px;
+    text-align: center;
+}
+.material-icons.md-48{
+    font-size: 48px;
+
+}
+.material-icons:hover{
+    cursor: pointer;
+}
+#myPbar{
+    width: 120vh;
+}
+.song_name{
+    position: absolute;
+    left: 22%;
+    font-size: x-large;
+    font-weight: 300;
+}
