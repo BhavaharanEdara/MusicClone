@@ -105,3 +105,14 @@ body{
     font-size: x-large;
     font-weight: 300;
 }
+
+@media screen and (max-width: 550px) {
+    .container{
+        margin : 1% 1%;
+    }
+
+    .song{
+        width: 80%;
+        font-size: 70%;
+    }
+  }
