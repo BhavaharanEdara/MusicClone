@@ -114,5 +114,10 @@ body{
     .song{
         width: 80%;
         font-size: 70%;
+        
+    }
+    .song_name{
+        left: 5%;
+        font-size: medium;
     }
   }
